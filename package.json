@@ -1,0 +1,38 @@
+{
+  "name": "multie",
+  "version": "1.0.0",
+  "description": "Zero-dependency local Multi-CLI Orchestra (Claude × Grok × AGY) with Epistemic Triad & Sovereign Integral (si-algo) collusion gate.",
+  "type": "module",
+  "bin": {
+    "multie": "./bin/multie.mjs"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "test": "node --test test/multie.test.mjs",
+    "multie": "node bin/multie.mjs",
+    "doctor": "node bin/multie.mjs doctor",
+    "compare": "node bin/multie.mjs compare",
+    "demo:debate": "node bin/multie.mjs debate --dry-run \"Würde ein Air-Gap mit Kill-Switch RSI sicher machen?\"",
+    "demo:parallel": "node bin/multie.mjs parallel --dry-run \"Entwirf einen latenzfreien 4-Pol-Dioden-Ladder-Filter in C++20\""
+  },
+  "keywords": [
+    "multi-agent",
+    "orchestrator",
+    "claude",
+    "grok",
+    "antigravity",
+    "agy",
+    "si-algo",
+    "powershell",
+    "nobis23"
+  ],
+  "author": "NOBIS23 Werkstatt (Paul Christoph Feichtinger)",
+  "license": "Unlicense",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nobis23-werkstatt/multie.git"
+  },
+  "homepage": "https://nobis23-werkstatt.github.io/multie/"
+}
